@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { motion, useScroll } from 'framer-motion'
 import LiIcon from './LiIcon';
+import { TITLE_OUR_SERVICES_ES } from './utils/constans';
 
 const Details = ({position, company, companyLink, time, address, work}) => {
   const ref = useRef(null);
@@ -14,13 +15,13 @@ const Details = ({position, company, companyLink, time, address, work}) => {
         transition={{ duration:0.5, type:"spring" }}
       >
         <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>{position}&nbsp;
+          
+        </h3>
+        <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
           <a href={companyLink}
             target='_blank'
             className='text-primary dark:text-primaryDark capitalize'
           >@{company}</a>
-        </h3>
-        <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
-          {time} | {address}
         </span>
         <p className='font-medium w-full md:text-sm'> 
           {work} 
@@ -30,7 +31,7 @@ const Details = ({position, company, companyLink, time, address, work}) => {
   );
 };
 
-const Experience = ({experiences}) => {
+const OurServices = ({experiences}) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll(
     {
@@ -42,7 +43,7 @@ const Experience = ({experiences}) => {
   return (
     <div className='my-64'>
       <h2 className='font-hold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-        Experience
+        {TITLE_OUR_SERVICES_ES}
       </h2>
 
       <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
@@ -64,4 +65,4 @@ const Experience = ({experiences}) => {
   )
 }
 
-export default Experience
+export default OurServices

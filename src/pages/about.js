@@ -5,10 +5,8 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import fsPromises from 'fs/promises';
 import path from 'path'
 import AnimatedText from '@/components/AnimatedText'
-import Education from '@/components/Education'
-import Experience from '@/components/Experience'
+import OurServices from '@/components/OurServices'
 import Layout from '@/components/Layout'
-import Skills from '@/components/Skills'
 import TransitionEffect from '@/components/TransitionEffect'
 import profilePic from "../../public/images/profile/logo-black.png"
 import { TEXT_ABOUT_PART_1_ES, TEXT_ABOUT_PART_3_ES, TITLE_ABOUT_ES } from '@/components/utils/constans'
@@ -102,7 +100,7 @@ const about = ({objectData}) => {
             </div>
           </div>
           
-          <Experience experiences={objectData.experiences} />
+          <OurServices experiences={objectData.experiences} />
         </Layout>
       </main>
     </>

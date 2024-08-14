@@ -27,6 +27,8 @@ export const TEXT_ABOUT_PART_2 = "I believe that design is about more than just 
 export const TEXT_ABOUT_PART_3_EN = "Whether I'm working on a website, mobile app, or other digital product, I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.";
 export const TEXT_ABOUT_PART_3_ES = "Lo que comenzó como un proyecto entre amigos bajo el nombre VC Team (por Villa Centenario), ha evolucionado hacia VC Tech, una empresa que combina conocimiento técnico, creatividad y un enfoque práctico para ofrecer soluciones tecnológicas que marcan la diferencia. Desde nuestras primeras experiencias en desarrollo de aplicaciones y plataformas de e-commerce, hasta nuestra actual exploración en automatización e inteligencia artificial, hemos mantenido el compromiso de transformar ideas en realidad.";
 
+export const TITLE_OUR_SERVICES_EN = "Our Services"
+export const TITLE_OUR_SERVICES_ES = "Nuestros Servicios"
 
 export const WORK_1_EXPERIENCE = "IT Resources"
 export const TITLE_SKILLS = "DEVELOPER FULL STACK"
