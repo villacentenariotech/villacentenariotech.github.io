@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {motion} from 'framer-motion'
+import { TITLE_SKILLS } from './utils/constans'
 
-const Skill = ({name, x, y}) => {
+const Skill = ({name, x, y, onClick}) => {
   return (
     <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light
       py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light
@@ -12,12 +13,23 @@ const Skill = ({name, x, y}) => {
       initial={{ x:0, y:0 }}
       whileInView={{ x:x, y:y, transition: { duration:1.5 } }}
       viewport={{ once: true }}
+      onClick={onClick}
     >
       {name}
     </motion.div>
   )
 }
-const Skills = () => {
+const Skills = ({skills}) => {
+  const [modalInfo, setModalInfo] = useState(null);
+
+  const openModal = (skill) => {
+    setModalInfo(skill);
+  };
+
+  const closeModal = () => {
+    setModalInfo(null);
+  };
+
   return (
     <>
       <h2 className='font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32'>Skills</h2>
@@ -31,17 +43,27 @@ const Skills = () => {
           p-8 shadow-dark cursor-pointer dark:text-dark dark:bg-light lg:p-6 md:p-4 xs:text-xs xs:p-2'
           whileHover={{scale:1.05}}
         >
-          Web
+          {TITLE_SKILLS}
         </motion.div>
 
-        <Skill name='HTML' x='-25vw' y='2vw' />
-        <Skill name='CSS' x='-5vw' y='10vw' />
-        <Skill name='JS' x='20vw' y='6vw' />
-        <Skill name='ReactJS' x='0vw' y='12vw' />
-        <Skill name='NextJS' x='-20vw' y='-15vw' />
-        <Skill name='Web Design' x='15vw' y='-12vw' />
-        <Skill name='Firebase' x='32vw' y='-5vw' />
-        <Skill name='Tailwind CSS' x='0vw' y='-20vw' />
+        {skills.map((detail) => (
+          <Skill key={detail.name} {...detail} onClick={() => openModal(detail)}/>
+        ))}
+
+        {modalInfo && (
+          <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
+            <div className="bg-[#143c45] text-[#5ce1e6] p-6 rounded-lg shadow-lg max-w-sm w-full text-center">
+              <h3 className="text-2xl font-bold mb-4">{modalInfo.name}</h3>
+              <p>{modalInfo.description}</p>
+              <button
+                className="mt-4 py-2 px-4 bg-[#55b5ed] text-white rounded"
+                onClick={closeModal}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </>
   )

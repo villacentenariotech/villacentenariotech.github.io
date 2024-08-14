@@ -1,14 +1,31 @@
-import AnimatedText from '@/components/AnimatedText'
-import Layout from '@/components/Layout'
-import Skills from '@/components/Skills'
-import Experience from '@/components/Experience'
-import Education from '@/components/Education'
 import Head from 'next/head'
+import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
-import profilePic from "../../public/images/profile/developer-pic-2.jpg"
-import Image from 'next/image'
+import fsPromises from 'fs/promises';
+import path from 'path'
+import AnimatedText from '@/components/AnimatedText'
+import Education from '@/components/Education'
+import Experience from '@/components/Experience'
+import Layout from '@/components/Layout'
+import Skills from '@/components/Skills'
 import TransitionEffect from '@/components/TransitionEffect'
+import profilePic from "../../public/images/profile/logo-black.png"
+import { TEXT_ABOUT_PART_1_ES, TEXT_ABOUT_PART_3_ES, TITLE_ABOUT_ES } from '@/components/utils/constans'
+
+export async function getStaticProps() {
+  const filePath = path.join(process.cwd(), 'src/components/utils/abouts.json');
+  const jsonData = await fsPromises.readFile(filePath);
+  const objectData = JSON.parse(jsonData);
+
+  const props = {
+    objectData: objectData
+  };
+
+  return {
+    props: props
+  };
+}
 
 const AnimatedNumbers = ({value}) => {
   const ref = useRef(null);
@@ -35,35 +52,24 @@ const AnimatedNumbers = ({value}) => {
 
 }
 
-const about = () => {
+const about = ({objectData}) => {
   return (
     <>
       <Head>
-        <title>VCTech | About Page</title>
+        <title>VCTECH | About Page</title>
         <meta name='description' content='any description' />
       </Head>
       <TransitionEffect />
       <main className='flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
-          <AnimatedText text='Passion Fuels Purposse!' className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+          <AnimatedText text={TITLE_ABOUT_ES} className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
             
-              <p className='font-medium'>
-                Hi, I'm VCTech, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-                and user-centered digital experiences. With 7 years of experience in the field. I am always looking for 
-                new and innovative ways to bring my clients' visions to life.
-              </p>
-              <p className='my-4 font-medium'>
-                I believe that design is about more than just making things look pretty – it's about solving problems and 
-                creating intuitive, enjoyable experiences for users. 
-              </p>
-              <p className='font-medium'>
-                Whether I'm working on a website, mobile app, or 
-                other digital product, I bring my commitment to design excellence and user-centered thinking to 
-                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
-              </p>
+              <p className='font-medium'>{TEXT_ABOUT_PART_1_ES}</p>
+              <p className='my-4 font-medium'>Nuestra Historia</p>
+              <p className='font-medium'>{TEXT_ABOUT_PART_3_ES}</p>
             </div>
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid borde-dark 
               bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8
@@ -96,9 +102,7 @@ const about = () => {
             </div>
           </div>
           
-          <Skills />
-          <Experience />
-          <Education />
+          <Experience experiences={objectData.experiences} />
         </Layout>
       </main>
     </>

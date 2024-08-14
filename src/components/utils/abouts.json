@@ -1,0 +1,91 @@
+{
+  "clients": 1,
+  "projects": 1,
+  "years": 7,
+  "experiences":
+  [
+    {
+      "position": "Desarrollo de Aplicaciones Web",
+      "company": "VCTECH",
+      "time": "2016-2021",
+      "address": "Buenos Aires",
+      "work": "Creamos aplicaciones web robustas y personalizadas que se adaptan a las necesidades específicas de tu negocio. Ya sea que necesites una plataforma escalable o una solución ágil, en VC TECH te ayudamos a llevar tu presencia digital al siguiente nivel."
+    },
+    {
+      "position": "Soluciones de Comercio Electrónico",
+      "company": "VCTECH",
+      "time": "2016-2021",
+      "address": "Buenos Aires",
+      "work": "Te ayudamos a construir y optimizar tu tienda online para maximizar tus ventas y mejorar la experiencia del cliente. Desde la configuración de la tienda hasta la integración de sistemas de pago y envíos, nuestra experiencia asegura que tu e-commerce sea eficiente y efectivo."
+    },
+    {
+      "position": "Desarrollo de API",
+      "company": "VCTECH",
+      "time": "2016-2021",
+      "address": "Buenos Aires",
+      "work": "Nuestras APIs están diseñadas para facilitar la interoperabilidad y ampliar las capacidades de tus sistemas existentes. Nos enfocamos en crear soluciones seguras, escalables y fáciles de mantener, que permiten una integración fluida entre diferentes plataformas y servicios."
+    },
+    {
+      "position": "Automatización y Proyectos Arduino",
+      "company": "VCTECH",
+      "time": "2016-2021",
+      "address": "Buenos Aires",
+      "work": "Desde la creación de sistemas de riego automatizados hasta soluciones de automatización a medida, en VCTECH combinamos hardware y software para desarrollar proyectos innovadores basados en Arduino. Facilitamos la implementación de tecnología que simplifica y optimiza procesos clave en tu negocio."
+    },
+    {
+      "position": "Exploración en Inteligencia Artificial",
+      "company": "VCTECH",
+      "time": "2016-2021",
+      "address": "Buenos Aires",
+      "work": "Aunque estamos en las primeras etapas, estamos comprometidos con explorar el potencial de la inteligencia artificial. Nuestro objetivo es integrar IA en nuestras soluciones para ofrecer herramientas más inteligentes y eficientes que se adapten a las necesidades cambiantes de nuestros clientes."
+    }
+  ],
+  "educations":
+  [
+    {
+      "type": "Ingeniería en Informática",
+      "place": "UNDAV (Universidad Nacional de Avellaneda)",
+      "time": "2013 – Actualidad",
+      "info": "Solamente me quedan 5 materias, próximo a la realización de la tesis."
+    },
+    {
+      "type": "Técnico Electrónico y Bachiller",
+      "place": "Instituto Tecnológico San Bonifacio",
+      "time": "2007 - 2010",
+      "info": "Colegio tecnico de muy buen nivel, donde empece a conocer sobre la programacion con PIC con Assembler y principios de C"
+    }
+  ],
+  "skills":
+  [
+    {
+      "name": "Desarrollo de Aplicaciones Web",
+      "x": "0vw",
+      "y": "-20vw",
+      "descripcion": "Creamos aplicaciones web robustas y personalizadas que se adaptan a las necesidades específicas de tu negocio. Ya sea que necesites una plataforma escalable o una solución ágil, en VCTECH te ayudamos a llevar tu presencia digital al siguiente nivel."
+    },
+    {
+      "name": "Soluciones de Comercio Electrónico",
+      "x": "-20vw",
+      "y": "-15vw",
+      "descripcion": "Te ayudamos a construir y optimizar tu tienda online para maximizar tus ventas y mejorar la experiencia del cliente. Desde la configuración de la tienda hasta la integración de sistemas de pago y envíos, nuestra experiencia asegura que tu e-commerce sea eficiente y efectivo."
+    },
+    {
+      "name": "Desarrollo de API",
+      "x": "-25vw",
+      "y": "2vw",
+      "descripcion": "Nuestras APIs están diseñadas para facilitar la interoperabilidad y ampliar las capacidades de tus sistemas existentes. Nos enfocamos en crear soluciones seguras, escalables y fáciles de mantener, que permiten una integración fluida entre diferentes plataformas y servicios."
+    },
+    {
+      "name": "Automatización y Proyectos Arduino",
+      "x": "20vw",
+      "y": "6vw",
+      "descripcion": "Desde la creación de sistemas de riego automatizados hasta soluciones de automatización a medida, en VCTECH combinamos hardware y software para desarrollar proyectos innovadores basados en Arduino. Facilitamos la implementación de tecnología que simplifica y optimiza procesos clave en tu negocio."
+    },
+    {
+      "name": "Exploración en Inteligencia Artificial",
+      "x": "0vw",
+      "y": "12vw",
+      "descripcion": "Aunque estamos en las primeras etapas, estamos comprometidos con explorar el potencial de la inteligencia artificial. Nuestro objetivo es integrar IA en nuestras soluciones para ofrecer herramientas más inteligentes y eficientes que se adapten a las necesidades cambiantes de nuestros clientes."
+    }
+  ]
+}
