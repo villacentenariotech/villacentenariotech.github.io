@@ -1,24 +1,22 @@
 // sections
-export {default as Layout} from './layout/Layout'
-export { NavBar } from './shared/Navbar/NavBar'
-export {default as Footer} from './layout/Footer'
-
-export {default as Skills} from './sections/Skills'
-
-export {default as Education} from './shared/About/Education'
+export { Education } from './shared/About/Education'
 export {default as Experience} from './shared/About/Experience'
 export {default as Skill} from './shared/About/Skill'
+export { Skills } from './sections/Skills'
 
+export { Layout} from './layout/Layout'
+export { Footer} from './layout/Footer'
+
+export { NavBar } from './shared/Navbar/NavBar'
 export { NavbarLaptop } from './shared/Navbar/NavbarLaptop'
 export { NavbarMobile } from './shared/Navbar/NavbarMobile'
-export {default as CustomMobileLink} from './shared/Navbar/CustomMobileLink'
+export { CustomMobileLink } from './shared/Navbar/CustomMobileLink'
 export {default as CustomLink} from './shared/Navbar/CustomLink'
 
 export {default as FeaturedProjects} from './shared/Projects/FeaturedProjects'
 export {default as Project} from './shared/Projects/Project'
 
 export { AnimatedText } from './shared/AnimatedText'
-export {default as Logo} from './shared/Logo'
 
 // icons
 export { GithubIcon } from './shared/Icons/GIthubIcon';

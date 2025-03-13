@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CustomMobileLink = ({href, title, className="", toggle}) => {
+export const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   const router = useRouter();
 
   const handleClick = () => {
@@ -11,13 +11,13 @@ const CustomMobileLink = ({href, title, className="", toggle}) => {
   return (
     <button href={href} className={`${className} relative group text-light dark:text-dark my-2`} onClick={handleClick}>
       {title}
-      <span 
+      <span
         className={`
-          h-[1px] inline-bloc bg-light
+          h-[1px] inline-bloc 
+          bg-light dark:bg-dark
           absolute left-0 -bottom-0.5
           group-hover:w-full transition-[width] ease duration-300
           ${router.asPath === href ? "w-full" : "w-0"} 
-          dark:bg-dark
         `}
       >
         &nbsp;
@@ -25,5 +25,3 @@ const CustomMobileLink = ({href, title, className="", toggle}) => {
     </button>
   )
 }
-
-export default CustomMobileLink;

@@ -1,5 +1,7 @@
 import React from "react";
 import { useData } from "../context/DataContext";
+import Image from "next/image";
+import drawDevelop from "@/../public/images/01-developer.png"
 
 const values = [
   {
@@ -23,7 +25,7 @@ export default function About() {
   const { data, translations } = useData();
 
   if (!data || !translations) {
-    return <div className="text-center text-lg">Cargando...</div>;
+    return <div>Loading...</div>;
   }
 
   return (
@@ -51,10 +53,13 @@ export default function About() {
             </p>
           </div>
           <div className="flex-1">
-            <img
-              src="/team.jpg" 
+            <Image
+              src={drawDevelop}
               alt="Nuestro equipo"
+              width={800}
+              height={600}
               className="rounded-lg shadow-lg"
+              priority
             />
           </div>
         </div>
@@ -65,7 +70,10 @@ export default function About() {
           </h3>
           <div className="grid grid-cols-3 gap-8">
             {values.map((value, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
+              <div
+                key={index}
+                className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center"
+              >
                 <div className="text-4xl mb-4 text-primary-500 dark:text-primary-400">
                   {value.icon}
                 </div>
@@ -85,9 +93,7 @@ export default function About() {
             ¿Cómo ayudamos a nuestros clientes?
           </h3>
           <p className="text-dark dark:text-light max-w-3xl mx-auto mb-6">
-            En VCTech hemos trabajado con empresas de diversos sectores,
-            brindando soluciones innovadoras en desarrollo de software, APIs y seguridad digital.
-            Descubre cómo hemos impulsado el éxito de nuestros clientes.
+            En VCTech hemos trabajado con empresas de diversos sectores, brindando soluciones innovadoras en desarrollo de software, APIs y seguridad digital. Descubre cómo hemos impulsado el éxito de nuestros clientes.
           </p>
           <a
             href="#casos-de-exito"
@@ -102,8 +108,7 @@ export default function About() {
             ¿Quieres conocer más sobre cómo trabajamos?
           </h3>
           <p className="mb-6">
-            Estamos listos para ayudarte a llevar tu proyecto al siguiente nivel.
-            Descubre cómo podemos hacerlo juntos.
+            Estamos listos para ayudarte a llevar tu proyecto al siguiente nivel. Descubre cómo podemos hacerlo juntos.
           </p>
           <a
             href="#contact"

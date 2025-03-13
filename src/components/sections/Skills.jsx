@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AnimatedText, Skill } from '@/components';
 import { useData } from '@/components/context/DataContext';
 
-const Skills = ({ skills }) => {
+export const Skills = ({ skills }) => {
   const { translations } = useData();
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -79,5 +79,3 @@ const Skills = ({ skills }) => {
     </section>
   );
 };
-
-export default Skills;

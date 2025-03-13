@@ -5,7 +5,11 @@ import { useData } from '../context/DataContext'
 
 const Projects = () => {
   const { data, translations } = useData();
-  
+
+  if (!data || !translations) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <section id="projects" className="scroll-smooth">
       <AnimatedText text={translations.TITLE_PROJECTS}

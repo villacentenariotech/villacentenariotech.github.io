@@ -3,16 +3,16 @@ import Link from 'next/link'
 import { Layout } from '@/components'
 import { useData } from '../context/DataContext';
 
-const Footer = () => {
+export const Footer = () => {
   const { data, translations } = useData();
 
   if (!data || !translations) {
-    return <div className="text-center text-lg">Cargando...</div>;
+    return <div>Loading...</div>;
   }
 
   return (
     <footer className='w-full border-t-2 border-solid border-dark
-      font-medium text-lg dark:text-light dark:border-light sm:text-base'
+      font-medium text-lg sm:text-base dark:text-light dark:border-light '
     >
       <Layout className='py-8 flex items-center justify-between lg:flex-col lg:py-6'>
         <span>{new Date().getFullYear()} &copy; {translations.RIGHTS_RESERVED}</span>
@@ -26,5 +26,3 @@ const Footer = () => {
     </footer>
   )
 }
-
-export default Footer
