@@ -1,23 +1,37 @@
-/** @type {import('tailwindcss').Config} */
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
-const {fontFamily} =require('tailwindcss/defaultTheme')
+// Función para generar tonos de un color base usando variables CSS
+function generateColorShades(variableName) {
+  return {
+    50: `color-mix(in srgb, var(${variableName}), white 90%)`,
+    100: `color-mix(in srgb, var(${variableName}), white 80%)`,
+    200: `color-mix(in srgb, var(${variableName}), white 60%)`,
+    300: `color-mix(in srgb, var(${variableName}), white 40%)`,
+    400: `color-mix(in srgb, var(${variableName}), white 20%)`,
+    500: `var(${variableName})`,
+    600: `color-mix(in srgb, var(${variableName}), black 20%)`,
+    700: `color-mix(in srgb, var(${variableName}), black 40%)`,
+    800: `color-mix(in srgb, var(${variableName}), black 60%)`,
+    900: `color-mix(in srgb, var(${variableName}), black 80%)`,
+    950: `color-mix(in srgb, var(${variableName}), black 90%)`,
+  };
+}
 
 module.exports = {
   content: [
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
-        mont: ['var(--font-mont)', ...fontFamily.sans]
+        mont: ['var(--font-mont)', ...fontFamily.sans],
       },
       colors: {
         dark: "#1b1b1b",
         light: "#f5f5f5",
-        primary: "#B63E96",
-        primaryDark: "#58E6D9"
+        primary: generateColorShades('--primary'),
+        secondary: generateColorShades('--secondary'),
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
@@ -31,27 +45,16 @@ module.exports = {
         circularDarkMd: "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 6px,#1b1b1b 60px)",
         circularLightSm: "repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px,#f5f5f5 40px)",
         circularDarkSm: "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 4px,#1b1b1b 40px)",
-      }
+      },
     },
     screens: {
       "2xl": { max: "1535px" },
-      // => @media (max-width: 1535px) { ... }
-  
       xl: { max: "1279px" },
-      // => @media (max-width: 1279px) { ... }
-  
       lg: { max: "1023px" },
-      // => @media (max-width: 1023px) { ... }
-  
       md: { max: "767px" },
-      // => @media (max-width: 767px) { ... }
-  
       sm: { max: "639px" },
-      // => @media (max-width: 639px) { ... }
-  
       xs: { max: "479px" },
-      // => @media (max-width: 479px) { ... }
     },
   },
   plugins: [],
-}
+};
