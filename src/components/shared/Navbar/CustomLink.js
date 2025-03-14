@@ -2,7 +2,7 @@ import React from 'react'
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
-const CustomLink = ({href, title, className=""}) => {
+export const CustomLink = ({href, title, className=""}) => {
   const router = useRouter();
 
   return (
@@ -22,5 +22,3 @@ const CustomLink = ({href, title, className=""}) => {
     </Link>
   )
 }
-
-export default CustomLink;

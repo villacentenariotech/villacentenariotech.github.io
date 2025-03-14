@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { motion, useScroll } from 'framer-motion'
-import { LiIcon } from '@/components'
 import { useData } from '@/components/context/DataContext';
+import { LiIcon } from '@/components'
 
 const Details = ({experience, translations}) => {
   const ref = useRef(null);
@@ -31,7 +31,7 @@ const Details = ({experience, translations}) => {
   );
 };
 
-const Experience = ({experiences}) => {
+export const Experience = ({experiences}) => {
   const ref = useRef(null);
   const { translations } = useData();
   const { scrollYProgress } = useScroll(
@@ -69,5 +69,3 @@ const Experience = ({experiences}) => {
     </div>
   )
 }
-
-export default Experience

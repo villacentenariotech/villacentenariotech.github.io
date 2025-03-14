@@ -1,6 +1,6 @@
 import React from "react";
-import { useData } from "../context/DataContext";
 import Image from "next/image";
+import { useData } from "../context/DataContext";
 import drawDevelop from "@/../public/images/01-developer.png"
 
 const values = [

@@ -1,11 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import Hero from '@/components/sections/Hero';
-import Projects from '@/components/sections/Projects';
 import { useData } from '@/components/context/DataContext';
-import { Footer, Layout } from '@/components';
-import Services from '@/components/sections/Services';
-import About from '@/components/sections/About';
+import { About, Hero, Layout, Projects, Services } from '@/components';
 
 export default function Home() {
   const { data, translations } = useData();

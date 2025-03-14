@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import * as Icons from '@/components';
 import { useData } from '@/components/context/DataContext';
+import * as Icons from '@/components';
 
-const Skill = ({ skill }) => {
+export const Skill = ({ skill }) => {
   const [showText, setShowText] = useState(false);
   const { translations } = useData();
   const IconComponent = Icons[skill.iconComponent];
@@ -31,7 +31,6 @@ const Skill = ({ skill }) => {
         <IconComponent className="text-white w-12 h-12" />
       )}
 
-      {/* Texto que aparece al hacer clic */}
       {showText && (
         <div
           className="
@@ -46,5 +45,3 @@ const Skill = ({ skill }) => {
     </div>
   );
 };
-
-export default Skill;

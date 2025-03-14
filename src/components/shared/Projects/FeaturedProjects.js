@@ -6,7 +6,7 @@ import { GithubIcon } from '@/components'
 
 const FramerImage = motion(Image);
 
-const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
+export const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
 
   return (
     <article className='w-full flex items-center justify-between relative roun-br-2xl
@@ -46,5 +46,3 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
     </article>
   )
 }
-
-export default FeaturedProjects;

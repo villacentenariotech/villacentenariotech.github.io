@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { AnimatedText, Skill } from '@/components';
 import { useData } from '@/components/context/DataContext';
+import { AnimatedText, Skill } from '@/components';
 
-export const Skills = ({ skills }) => {
+export default function Skills({ skills }) {
   const { translations } = useData();
   const [currentIndex, setCurrentIndex] = useState(0);
 

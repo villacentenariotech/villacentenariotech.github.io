@@ -1,7 +1,7 @@
 import React from 'react'
+import { useData } from '../context/DataContext'
 import projectPortfolio from "../shared/Images/project_portfolio.PNG"
 import { AnimatedText, Project, FeaturedProjects } from '@/components'
-import { useData } from '../context/DataContext'
 
 const Projects = () => {
   const { data, translations } = useData();

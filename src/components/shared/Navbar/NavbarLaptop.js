@@ -1,8 +1,8 @@
 import React from 'react'
+import Link from 'next/link';
 import { motion } from "framer-motion";
 import useThemeSwitcher from '@/components/hooks/useThemeSwitcher';
 import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon, CustomLink } from '@/components';
-import Link from 'next/link';
 
 export const NavbarLaptop = ({data, switchLanguage, locale}) => {
   const [mode, setMode] = useThemeSwitcher();

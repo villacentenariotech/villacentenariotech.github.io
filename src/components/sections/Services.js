@@ -1,6 +1,6 @@
 import React from "react";
-import { useData } from "../context/DataContext";
 import { motion } from "framer-motion";
+import { useData } from "../context/DataContext";
 
 export default function Services() {
   const { data, translations } = useData();
