@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { useData } from '@/components/context/DataContext';
 import { About, Hero, Layout, Projects, Services } from '@/components';
+import ContactUs from '@/components/sections/ContactUs';
 
 export default function Home() {
   const { data, translations } = useData();
@@ -22,6 +23,7 @@ export default function Home() {
           <Hero />
           <Services />
           <About />
+          <ContactUs />
           <Projects />
         </Layout>
       </main>

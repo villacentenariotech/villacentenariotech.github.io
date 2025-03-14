@@ -3,24 +3,6 @@ import Image from "next/image";
 import { useData } from "../context/DataContext";
 import drawDevelop from "@/../public/images/01-developer.png"
 
-const values = [
-  {
-    icon: "🚀",
-    title: "Innovación",
-    description: "Siempre estamos al día con las últimas tecnologías para ofrecer soluciones vanguardistas.",
-  },
-  {
-    icon: "🎯",
-    title: "Enfoque en resultados",
-    description: "Nos comprometemos a entregar soluciones que generen un impacto real en tu negocio.",
-  },
-  {
-    icon: "🤝",
-    title: "Trabajo en equipo",
-    description: "Creemos que la colaboración es clave para el éxito de cada proyecto.",
-  },
-];
-
 export default function About() {
   const { data, translations } = useData();
 
@@ -66,10 +48,10 @@ export default function About() {
 
         <div className="text-center mt-12">
           <h3 className="text-2xl font-bold text-dark dark:text-light mb-6">
-            Nuestros Valores
+            {translations.OUR_VALUES}
           </h3>
           <div className="grid grid-cols-3 gap-8">
-            {values.map((value, index) => (
+            {data.abouts?.map((value, index) => (
               <div
                 key={index}
                 className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center"
@@ -78,45 +60,16 @@ export default function About() {
                   {value.icon}
                 </div>
                 <h4 className="text-xl font-bold text-dark dark:text-light mb-2">
-                  {value.title}
+                  {translations[`ABOUT_${value.id.toUpperCase()}`]}
                 </h4>
                 <p className="text-dark dark:text-light">
-                  {value.description}
+                  {translations[`ABOUT_${value.id.toUpperCase()}_DESCRIPTION`]}
                 </p>
               </div>
             ))}
           </div>
         </div>
-
-        <div className="my-16 text-center">
-          <h3 className="text-2xl font-bold text-dark dark:text-light mb-6">
-            ¿Cómo ayudamos a nuestros clientes?
-          </h3>
-          <p className="text-dark dark:text-light max-w-3xl mx-auto mb-6">
-            En VCTech hemos trabajado con empresas de diversos sectores, brindando soluciones innovadoras en desarrollo de software, APIs y seguridad digital. Descubre cómo hemos impulsado el éxito de nuestros clientes.
-          </p>
-          <a
-            href="#casos-de-exito"
-            className="text-primary-500 dark:text-primary-300 hover:underline font-semibold"
-          >
-            Ver casos de éxito →
-          </a>
-        </div>
-
-        <div className="text-center bg-gradient-to-r from-primary-500 to-indigo-600 text-white py-10 px-6 rounded-lg shadow-lg">
-          <h3 className="text-2xl font-bold mb-4">
-            ¿Quieres conocer más sobre cómo trabajamos?
-          </h3>
-          <p className="mb-6">
-            Estamos listos para ayudarte a llevar tu proyecto al siguiente nivel. Descubre cómo podemos hacerlo juntos.
-          </p>
-          <a
-            href="#contact"
-            className="bg-white text-primary-500 px-8 py-3 font-bold rounded-lg hover:bg-gray-100 transition-colors duration-300"
-          >
-            Hablemos 🚀
-          </a>
-        </div>
+        
       </div>
     </section>
   );

@@ -127,39 +127,47 @@
   "services": [
     {
       "icon": "💻",
-      "title": "Desarrollo de Aplicaciones Web",
-      "description": "Creamos aplicaciones web modernas, escalables y fáciles de usar. Perfectas para startups y empresas establecidas.",
+      "id": "web_development",
       "link": "#"
     },
     {
       "icon": "🔗",
-      "title": "Creación de APIs",
-      "description": "Desarrollamos APIs robustas y seguras que integran tus sistemas y mejoran la eficiencia de tu negocio.",
+      "id": "api_creation",
       "link": "#"
     },
     {
       "icon": "🛠️",
-      "title": "Mantenimiento de Software",
-      "description": "Optimizamos y mantenemos tus sistemas para que siempre funcionen al máximo rendimiento.",
+      "id": "software_maintenance",
       "link": "#"
     },
     {
       "icon": "🌐",
-      "title": "Páginas Estáticas",
-      "description": "Diseñamos páginas estáticas rápidas, eficientes y optimizadas para SEO.",
+      "id": "static_pages",
       "link": "#"
     },
     {
       "icon": "📈",
-      "title": "Consultoría Tecnológica",
-      "description": "Te asesoramos en la implementación de tecnologías que impulsen tu negocio.",
+      "id": "tech_consulting",
       "link": "#"
     },
     {
       "icon": "🔒",
-      "title": "Seguridad Informática",
-      "description": "Protegemos tus sistemas y datos con soluciones de seguridad avanzadas.",
+      "id": "cyber_security",
       "link": "#"
+    }
+  ],
+  "abouts": [
+    {
+      "icon":"🚀",
+      "id": "innovation"
+    },
+    {
+      "icon": "🎯",
+      "id": "focus_results"
+    },
+    {
+      "icon": "🤝",
+      "id": "teamwork"
     }
   ]
 }

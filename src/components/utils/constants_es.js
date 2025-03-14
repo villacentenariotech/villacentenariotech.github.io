@@ -2,12 +2,23 @@ export const translations = {
 	LENGUAGE: "es",
 	BROWSER_TAD_TITLE: "VCTech - Desarrollo de software a medida",
 	META_CONTENT: "En VCTech, creamos soluciones tecnológicas que impulsan tu negocio. Desarrollo web, APIs, mantenimiento de software y más.",
+
+	NAVBAR_SERVICES: "Servicios",
+	NAVBAR_ABOUT: "Nosotros",
+	NAVBAR_CONTAC_US: "Contáctanos",
+	NAVBAR_PROJECTS: "Projectos",
+
 	HERO_TITLE: "Transformamos ideas en soluciones digitales",
 	HERO_SUBTITLE: "En VCTech, creamos soluciones tecnológicas que impulsan tu negocio.",
+
 	SERVICES: "Servicios",
+
 	OUR_SERVICES_BUTTON: "Conoce nuestros servicios",
 	OUR_SERVICES_TITLE: "Nuestros Servicios",
 	OUR_SERVICES_SUBTITLE: "Ofrecemos soluciones tecnológicas adaptadas a tus necesidades. Desde desarrollo web hasta mantenimiento de software, estamos aquí para ayudarte.",
+
+	OUR_VALUES: "Nuestros valores",
+	
 	LEARN_MORE: "Conoce más",
 	RESUME_HOME: `
 		¡Hola! 
@@ -17,8 +28,8 @@ export const translations = {
 		`,
 	DOWNLOAD_CV: "Descargar CV",
 	INTRO_TITLE: "Soluciones Tecnológicas a Medida para tu Negocio",
-  INTRO_SUBTITLE: "En VCTech, nos especializamos en desarrollo de software, e-commerce, deploy en la nube y creación de páginas web. Llevamos tu negocio al siguiente nivel con tecnología de vanguardia.",
-  CONTACT_BUTTON: "Contáctanos",
+	INTRO_SUBTITLE: "En VCTech, nos especializamos en desarrollo de software, e-commerce, deploy en la nube y creación de páginas web. Llevamos tu negocio al siguiente nivel con tecnología de vanguardia.",
+	CONTACT_BUTTON: "Contáctanos",
 	ABOUT_US_BUTTON: "Conócenos",
 	TITLE_ABOUT: "Acerca de Mí",
 	SUBTITLE_ABOUT: "Desarrollador Full Stack",
@@ -53,5 +64,31 @@ export const translations = {
 	TITLE_EXPERIENCE: "Experiencia",
 	RIGHTS_RESERVED: "Todos los derechos reservados.",
 	BUILD_WITH: "Build With",
-	SAY_HELLO: "Di hola"
+	SAY_HELLO: "Di hola",
+
+	SERVICE_WEB_DEVELOPMENT: "Desarrollo de Aplicaciones Web",
+	SERVICE_WEB_DEVELOPMENT_DESCRIPTION: "Creamos aplicaciones web modernas, escalables y fáciles de usar. Perfectas para startups y empresas establecidas.",
+
+	SERVICE_API_CREATION: "Creación de APIs",
+	SERVICE_API_CREATION_DESCRIPTION: "Desarrollamos APIs robustas y seguras que integran tus sistemas y mejoran la eficiencia de tu negocio.",
+
+	SERVICE_SOFTWARE_MAINTENANCE: "Mantenimiento de Software",
+	SERVICE_SOFTWARE_MAINTENANCE_DESCRIPTION: "Optimizamos y mantenemos tus sistemas para que siempre funcionen al máximo rendimiento.",
+
+	SERVICE_STATIC_PAGES: "Páginas Estáticas",
+	SERVICE_STATIC_PAGES_DESCRIPTION: "Diseñamos páginas estáticas rápidas, eficientes y optimizadas para SEO.",
+
+	SERVICE_TECH_CONSULTING: "Consultoría Tecnológica",
+	SERVICE_TECH_CONSULTING_DESCRIPTION: "Te asesoramos en la implementación de tecnologías que impulsen tu negocio.",
+
+	SERVICE_CYBER_SECURITY: "Seguridad Informática",
+	SERVICE_CYBER_SECURITY_DESCRIPTION: "Protegemos tus sistemas y datos con soluciones de seguridad avanzadas.",
+
+	ABOUT_INNOVATION: "Innovación",
+	ABOUT_INNOVATION_DESCRIPTION: "Siempre estamos al día con las últimas tecnologías para ofrecer soluciones vanguardistas.",
+	ABOUT_FOCUS_RESULTS: "Enfoque en resultados",
+	ABOUT_FOCUS_RESULTS_DESCRIPTION: "Nos comprometemos a entregar soluciones que generen un impacto real en tu negocio.",
+	ABOUT_TEAMWORK: "Trabajo en equipo",
+	ABOUT_TEAMWORK_DESCRIPTION: "Creemos que la colaboración es clave para el éxito de cada proyecto."
+
 };

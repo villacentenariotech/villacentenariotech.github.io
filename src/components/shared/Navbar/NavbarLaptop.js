@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import { motion } from "framer-motion";
 import useThemeSwitcher from '@/components/hooks/useThemeSwitcher';
+import { useData } from '@/components/context/DataContext';
 import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon, CustomLink } from '@/components';
 
 export const NavbarLaptop = ({data, switchLanguage, locale}) => {
@@ -9,16 +10,22 @@ export const NavbarLaptop = ({data, switchLanguage, locale}) => {
   const githubLink = data?.links?.github || '#';
   const linkedin = data?.links?.linkedin || '#';
 
+  const { translations } = useData();
+
+  if (!translations) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div className='w-full flex justify-between items-center lg:hidden'>
       <nav>
         <Link href="/" className="mr-4 text-xl font-bold text-primary-500 dark:text-primary-300">
           VCTech
         </Link>
-        <CustomLink href="#home" title="Home" className='mr-4 text-dark dark:text-light hover:text-primary-500' />
-        <CustomLink href="#about" title="About" className='mx-4 text-dark dark:text-light hover:text-primary-500' />
-        <CustomLink href="#skills" title="Skills" className='mx-4 text-dark dark:text-light hover:text-primary-500' />
-        <CustomLink href="#projects" title="Projects" className='mx-4 text-dark dark:text-light hover:text-primary-500' />
+        <CustomLink href="#services" title={translations.NAVBAR_SERVICES} className='mr-4 text-dark dark:text-light hover:text-primary-500' />
+        <CustomLink href="#about" title={translations.NAVBAR_ABOUT} className='mx-4 text-dark dark:text-light hover:text-primary-500' />
+        <CustomLink href="#contact_us" title={translations.NAVBAR_CONTAC_US} className='mx-4 text-dark dark:text-light hover:text-primary-500' />
+        <CustomLink href="#projects" title={translations.PROJECTS} className='mx-4 text-dark dark:text-light hover:text-primary-500' />
       </nav>
 
       <nav className='flex items-center justify-center flex-wrap'>

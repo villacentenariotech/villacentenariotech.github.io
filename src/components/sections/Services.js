@@ -32,18 +32,12 @@ export default function Services() {
                     {service.icon}
                   </span>
                   <h3 className="text-2xl font-bold text-dark dark:text-light">
-                    {service.title}
+                    {translations[`SERVICE_${service.id.toUpperCase()}`]}
                   </h3>
                 </div>
                 <p className="text-dark dark:text-gray-300 mb-4">
-                  {service.description}
+                  {translations[`SERVICE_${service.id.toUpperCase()}_DESCRIPTION`]}
                 </p>
-                <a
-                  href={service.link}
-                  className="inline-block text-primary-500 dark:text-primary-300 font-semibold hover:underline"
-                >
-                  {translations.LEARN_MORE} →
-                </a>
               </div>
             </motion.div>
           ))}
@@ -54,8 +48,8 @@ export default function Services() {
             ¿Por qué nuestros clientes nos eligen?
           </h3>
           <p className="text-gray-600 dark:text-gray-300 mb-4 max-w-2xl mx-auto">
-            Con más de X proyectos entregados, hemos ayudado a empresas a digitalizar sus procesos, 
-            mejorar su eficiencia y potenciar su presencia en línea. Descubre cómo nuestras soluciones han 
+            Con más de X proyectos entregados, hemos ayudado a empresas a digitalizar sus procesos,
+            mejorar su eficiencia y potenciar su presencia en línea. Descubre cómo nuestras soluciones han
             transformado negocios como el tuyo.
           </p>
         </div>

@@ -3,6 +3,13 @@ import { motion } from "framer-motion";
 import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon, CustomMobileLink } from '@/components';
 
 export const NavbarMobile = () => {
+
+  const { translations } = useData();
+
+  if (!translations) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <motion.div
       initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
@@ -12,10 +19,10 @@ export const NavbarMobile = () => {
         '>
 
       <nav className='flex items-center flex-col justify-center'>
-        <CustomMobileLink href="#home" title="Home" className='' toggle={handleIsOpen} />
-        <CustomMobileLink href="#about" title="About" className='' toggle={handleIsOpen} />
-        <CustomMobileLink href="#skills" title="Skills" className='' toggle={handleIsOpen} />
-        <CustomMobileLink href="#projects" title="Projects" className='' toggle={handleIsOpen} />
+        <CustomMobileLink href="#services" title={translations.NAVBAR_SERVICES} className='' toggle={handleIsOpen} />
+        <CustomMobileLink href="#about"  title={translations.NAVBAR_ABOUT} className='' toggle={handleIsOpen} />
+        <CustomMobileLink href="#contact_us"  title={translations.NAVBAR_CONTAC_US} className='' toggle={handleIsOpen} />
+        <CustomMobileLink href="#projects"  title={translations.NAVBAR_PROJECTS} className='' toggle={handleIsOpen} />
       </nav>
 
       <nav className='flex items-center justify-center flex-wrap mt-2'>

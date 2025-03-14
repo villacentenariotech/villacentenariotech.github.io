@@ -2,6 +2,11 @@ export const translations = {
 	LENGUAGE: "en",
 	BROWSER_TAD_TITLE: "VCTech - Desarrollo de software a medida",
 	META_CONTENT: "En VCTech, creamos soluciones tecnológicas que impulsan tu negocio. Desarrollo web, APIs, mantenimiento de software y más.",
+
+	NAVBAR_SERVICES: "Servicios",
+	NAVBAR_ABOUT: "Nosotros",
+	NAVBAR_CONTAC_US: "Contáctanos",
+	
 	HERO_TITLE: "Transformamos ideas en soluciones digitales",
 	HERO_SUBTITLE: "En VCTech, creamos soluciones tecnológicas que impulsan tu negocio.",
 	OUR_SERVICES_BUTTON: "Conoce nuestros servicios",
@@ -56,5 +61,31 @@ export const translations = {
 	TITLE_EXPERIENCE: "Experience",
 	RIGHTS_RESERVED: "Todos los derechos reservados.",
 	BUILD_WITH: "Build With",
-	SAY_HELLO: "Di hola"
+	SAY_HELLO: "Di hola",
+
+	SERVICE_WEB_DEVELOPMENT: "Web Application Development",
+	SERVICE_WEB_DEVELOPMENT_DESCRIPTION: "We create modern, scalable, and user-friendly web applications. Perfect for startups and established businesses.",
+
+	SERVICE_API_CREATION: "API Development",
+	SERVICE_API_CREATION_DESCRIPTION: "We develop robust and secure APIs that integrate your systems and enhance your business efficiency.",
+
+	SERVICE_SOFTWARE_MAINTENANCE: "Software Maintenance",
+	SERVICE_SOFTWARE_MAINTENANCE_DESCRIPTION: "We optimize and maintain your systems to ensure they always perform at their best.",
+
+	SERVICE_STATIC_PAGES: "Static Websites",
+	SERVICE_STATIC_PAGES_DESCRIPTION: "We design fast, efficient, and SEO-optimized static websites.",
+
+	SERVICE_TECH_CONSULTING: "Tech Consulting",
+	SERVICE_TECH_CONSULTING_DESCRIPTION: "We advise you on implementing technologies that drive your business forward.",
+
+	SERVICE_CYBER_SECURITY: "Cyber Security",
+	SERVICE_CYBER_SECURITY_DESCRIPTION: "We protect your systems and data with advanced security solutions.",
+
+	ABOUT_INNOVATION: "Innovation",
+	ABOUT_INNOVATION_DESCRIPTION: "We are always up to date with the latest technologies to offer cutting-edge solutions.",
+	ABOUT_FOCUS_RESULTS: "Focus on results",
+	ABOUT_FOCUS_RESULTS_DESCRIPTION: "We are committed to delivering solutions that generate a real impact on your business.",
+	ABOUT_TEAMWORK: "Teamwork",
+	ABOUT_TEAMWORK_DESCRIPTION: "We believe that collaboration is key to the success of every project."
+
 };
