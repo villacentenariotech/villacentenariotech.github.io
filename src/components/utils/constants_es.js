@@ -56,17 +56,9 @@ export const translations = {
 
 	CONTACT_US: "Contáctanos",
 	FOOTER_COPYRIGHT: "© 2024 Martin Rubio. Todos los derechos reservados",
-	TEXT_BROWSER: "MartinRubio - Portfolio",
 	TITLE_PROJECTS: "Algunos de mis proyectos",
-	YEARS: "Años",
-	SATISFIED_CLIENTS: "cleintes satisfechos",
-	PROJECT_COMPLETED: "projectos completados",
-	YEARS_EXPERIENCE: "años de experiencia",
 	TITLE_SKILLS: "Skills",
-	TITLE_EDUCATION: "Educación",
-	TITLE_EXPERIENCE: "Experiencia",
 	RIGHTS_RESERVED: "Todos los derechos reservados.",
 	BUILD_WITH: "Build With",
 	SAY_HELLO: "Hablemos",
-
 };

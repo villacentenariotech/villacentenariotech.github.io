@@ -1,91 +1,64 @@
 export const translations = {
 	LENGUAGE: "en",
-	BROWSER_TAD_TITLE: "VCTech - Desarrollo de software a medida",
-	META_CONTENT: "En VCTech, creamos soluciones tecnológicas que impulsan tu negocio. Desarrollo web, APIs, mantenimiento de software y más.",
+	BROWSER_TAD_TITLE: "VCTech - Custom Software Development",
+	META_CONTENT: "At VCTech, we create technological solutions that drive your business. Web development, APIs, software maintenance, and more.",
 
-	NAVBAR_SERVICES: "Servicios",
-	NAVBAR_ABOUT: "Nosotros",
-	NAVBAR_CONTAC_US: "Contáctanos",
-	
-	HERO_TITLE: "Transformamos ideas en soluciones digitales",
-	HERO_SUBTITLE: "En VCTech, creamos soluciones tecnológicas que impulsan tu negocio.",
-	OUR_SERVICES_BUTTON: "Conoce nuestros servicios",
+	NAVBAR_SERVICES: "Services",
+	NAVBAR_ABOUT: "About Us",
+	NAVBAR_CONTAC_US: "Contact Us",
+	NAVBAR_PROJECTS: "Projects",
 
-	RESUME_HOME: `
-		Hi there!
-		I'm Martin Lautaro Rubio, a developer with over 7 years of experience crafting innovative tech solutions.
-		Throughout my career, I've led key projects in sectors like technology, healthcare, and finance.
-		I'm always on the lookout for new challenges where I can bring my expertise and make a positive impact.
-	`,
-	DOWNLOAD_CV: "Descargar CV",
-	CONTACT_BUTTON: "Contactanos",
-	ABOUT_US_BUTTON: "Get to Know Us",
-	OUR_SERVICES_BUTTON: "Explore Our Services",
-	TITLE_ABOUT: "About Me",
-	SUBTITLE_ABOUT: "Full Stack Developer",
-	TEXT_ABOUT_PART_1: `
-		I'm a Full Stack Developer passionate about turning ideas into tech solutions that drive business success. 
-		With over 7 years of experience in web and mobile app development, I've had the opportunity to collaborate on 
-		and lead projects across diverse industries like finance, healthcare, and technology.
-	`,
-	TEXT_ABOUT_PART_2: `
-		My focus is on creating robust and scalable applications, covering both frontend (React.js, TypeScript) 
-		and backend (Java, Spring Boot). I specialize in clean and efficient code architecture, ensuring that every project 
-		I'm part of is not only functional but also optimized for the long term.
-	`,
-	TEXT_ABOUT_PART_3: `
-		I've had the responsibility of leading multidisciplinary teams and managing critical deliveries, especially during my time 
-		at Swiss Medical and other key projects. I'm always looking for ways to innovate, streamline processes, and enhance user 
-		experience with tailored solutions.
-	`,
-	TEXT_ABOUT_PART_4: `
-		Currently, I'm seeking new challenges where I can continue driving tech growth and contribute to the success of ambitious projects.
-	`,
-	TITLE_OUR_SERVICES: "Our Services",
-	SERVICE_WEB_DEVELOPMENT: "Web Development",
-	SERVICE_WEB_DEVELOPMENT_DESCRIPTION: "Custom websites that blend aesthetics with functionality, ensuring optimal performance and user satisfaction.",
-	SERVICE_MOBILE_APPS: "Mobile Apps",
-	SERVICE_MOBILE_APPS_DESCRIPTION: "We develop mobile solutions that meet modern user needs, guaranteeing both performance and usability.",
-	SERVICE_ECOMMERCE: "E-commerce Solutions",
-	SERVICE_ECOMMERCE_DESCRIPTION: "We help businesses sell online with robust, scalable, and secure e-commerce platforms.",
-	CONTACT_US: "Contact Us",
-	FOOTER_COPYRIGHT: "© 2024 Martin Rubio. All rights reserved.",
-	TEXT_BROWSER: "MartinRubio - Portfolio",
-	TITLE_PROYECTS: "Some of my projects",
-	YEARS: "Years",
-	SATISFIED_CLIENTS: "satisfied clients",
-	PROJECT_COMPLETED: "projet completed",
-	YEARS_EXPERIENCE: "years of experience",
-	TITLE_SKILLS: "Skills",
-	TITLE_EDUCATION: "Education",
-	TITLE_EXPERIENCE: "Experience",
-	RIGHTS_RESERVED: "Todos los derechos reservados.",
-	BUILD_WITH: "Build With",
-	SAY_HELLO: "Di hola",
+	HERO_TITLE: "We transform ideas into digital solutions that drive your business",
+	HERO_SUBTITLE: "At VCtech, we are passionate about turning your ideas into digital realities. We create custom technological solutions that not only solve problems but also drive growth and efficiency for your business.",
+
+	OUR_SERVICES_BUTTON: "Discover our services",
+	OUR_SERVICES_TITLE: "Our Services",
+	OUR_SERVICES_SUBTITLE: "We offer a personalized approach for each project, adapting to your needs and goals. Here are the services that will help you stand out in the digital world:",
 
 	SERVICE_WEB_DEVELOPMENT: "Web Application Development",
-	SERVICE_WEB_DEVELOPMENT_DESCRIPTION: "We create modern, scalable, and user-friendly web applications. Perfect for startups and established businesses.",
+	SERVICE_WEB_DEVELOPMENT_DESCRIPTION: "We create modern, scalable, and user-friendly web applications designed to enhance your team's productivity and your customers' experience.",
 
-	SERVICE_API_CREATION: "API Development",
-	SERVICE_API_CREATION_DESCRIPTION: "We develop robust and secure APIs that integrate your systems and enhance your business efficiency.",
+	SERVICE_API_CREATION: "API Creation",
+	SERVICE_API_CREATION_DESCRIPTION: "We develop robust and secure APIs that integrate your systems, optimize processes, and increase your business efficiency.",
 
 	SERVICE_SOFTWARE_MAINTENANCE: "Software Maintenance",
-	SERVICE_SOFTWARE_MAINTENANCE_DESCRIPTION: "We optimize and maintain your systems to ensure they always perform at their best.",
+	SERVICE_SOFTWARE_MAINTENANCE_DESCRIPTION: "We ensure your systems always perform at their best, with constant updates and optimizations.",
 
-	SERVICE_STATIC_PAGES: "Static Websites",
-	SERVICE_STATIC_PAGES_DESCRIPTION: "We design fast, efficient, and SEO-optimized static websites.",
+	SERVICE_STATIC_PAGES: "Static Pages",
+	SERVICE_STATIC_PAGES_DESCRIPTION: "We design fast, efficient, and SEO-optimized static pages, ideal for projects that require simplicity and high performance.",
 
 	SERVICE_TECH_CONSULTING: "Tech Consulting",
-	SERVICE_TECH_CONSULTING_DESCRIPTION: "We advise you on implementing technologies that drive your business forward.",
+	SERVICE_TECH_CONSULTING_DESCRIPTION: "We help you make informed decisions with expert advice on technologies that drive innovation and growth.",
 
-	SERVICE_CYBER_SECURITY: "Cyber Security",
-	SERVICE_CYBER_SECURITY_DESCRIPTION: "We protect your systems and data with advanced security solutions.",
+	SERVICE_CYBER_SECURITY: "Cybersecurity",
+	SERVICE_CYBER_SECURITY_DESCRIPTION: "We protect your systems and data with advanced security solutions, so you can operate with peace of mind and confidence.",
 
+	OUR_SERVICES_CONTACT: "Why do our clients choose us?",
+	OUR_SERVICES_BECAUSE: "At VCTech, we define ourselves by understanding your needs and offering personalized and effective solutions. We are a young team, full of energy and eager to learn, and we are characterized by learning and adapting to the challenges of each project.",
+	OUR_SERVICES_RESERVE: "Schedule a free consultation 🚀",
+
+	OUR_VALUES: "Our Values",
 	ABOUT_INNOVATION: "Innovation",
-	ABOUT_INNOVATION_DESCRIPTION: "We are always up to date with the latest technologies to offer cutting-edge solutions.",
-	ABOUT_FOCUS_RESULTS: "Focus on results",
+	ABOUT_INNOVATION_DESCRIPTION: "We are always up-to-date with the latest technologies to offer cutting-edge solutions.",
+	ABOUT_FOCUS_RESULTS: "Results-oriented",
 	ABOUT_FOCUS_RESULTS_DESCRIPTION: "We are committed to delivering solutions that generate a real impact on your business.",
 	ABOUT_TEAMWORK: "Teamwork",
-	ABOUT_TEAMWORK_DESCRIPTION: "We believe that collaboration is key to the success of every project."
+	ABOUT_TEAMWORK_DESCRIPTION: "We believe collaboration is key to the success of every project.",
 
+	WHOE_ARE_WE: "Who are we?",
+	WHOE_ARE_WE_DESCRIPTION_1: "At VCtech, we are a team of 3 professionals passionate about technology, based in Villa Centenario. We specialize in software development, API creation, and system maintenance.",
+	WHOE_ARE_WE_DESCRIPTION_2: "Our mission is clear: to help you transform your ideas into digital solutions that make a difference. Whether you need a web application, a robust API, or software maintenance, we are here to support you every step of the way.",
+	MEET_THE_TEAM: "Meet the team:",
+
+	ABOUT_HOW_WE_WORK: "Want to know more about how we work?",
+	ABOUT_HOW_WE_WORK_DESCRIPTION: "We are ready to help you take your project to the next level. Discover how we can do it together.",
+	TALK: "Let's talk 🚀",
+
+	CONTACT_US: "Contact Us",
+	FOOTER_COPYRIGHT: "© 2024 Martin Rubio. All rights reserved",
+	TITLE_PROJECTS: "Some of my projects",
+	TITLE_SKILLS: "Skills",
+	RIGHTS_RESERVED: "All rights reserved.",
+	BUILD_WITH: "Build With",
+	SAY_HELLO: "Let's talk",
 };
