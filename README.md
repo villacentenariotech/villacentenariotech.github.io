@@ -1,45 +1,69 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+VCtech - Soluciones Digitales a Medida 🚀
+GitHub stars  
+GitHub forks  
+Github Followers  
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+En VCtech, transformamos ideas en soluciones digitales innovadoras. Somos un equipo de profesionales apasionados por la tecnología, especializados en desarrollo de software, creación de APIs y mantenimiento de sistemas. Nuestro objetivo es ayudarte a alcanzar tus objetivos tecnológicos con soluciones personalizadas y de alta calidad.
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+Puedes visitar nuestro portafolio en el siguiente enlace:
+Ver Portafolio
 
-For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
+Acerca de Nosotros
+Somos un equipo de 3 profesionales con base en Villa Centenario, Argentina. Nos especializamos en desarrollo de software, creación de APIs y mantenimiento de sistemas. Aunque somos un equipo joven, estamos llenos de energía y ganas de aprender, comprometidos con crear las mejores soluciones digitales para tu negocio.
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
+Ubicación: Villa Centenario, Argentina (Remoto)
 
-<h3 align="left">▶ Support me via:</h3><br />
-<p><a href="https://www.buymeacoffee.com/CodeBucks" target="_blank"> <img  src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="50" width="210" alt="CodeBucks" ></img></a></p><br />
+Enfoque: Soluciones personalizadas y de alta calidad.
 
-### Images of The Portfolio Website:
+Valores: Innovación, enfoque en resultados y trabajo en equipo.
 
-![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
-![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
-![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
-![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
-![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
-![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
-![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
-![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
+Tecnologías
+Algunas de las tecnologías con las que trabajamos son:
 
+JavaScript
 
-### Resources Used in This Project
+ReactJS
 
-- Profile image in the home page created by using https://www.midjourney.com/ tool.
-- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
-on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
+NextJS
 
-### External Libraries used in this project:
+Tailwind CSS
 
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
+APIs RESTful
 
+Seguridad Informática
 
+Desarrollo Web
+
+Nuestros Servicios
+Ofrecemos soluciones tecnológicas adaptadas a tus necesidades. Estos son algunos de nuestros servicios:
+
+💻 Desarrollo de Aplicaciones Web
+Creamos aplicaciones web modernas, escalables y fáciles de usar, diseñadas para mejorar la productividad de tu equipo y la experiencia de tus clientes.
+
+🔗 Creación de APIs
+Desarrollamos APIs robustas y seguras que integran tus sistemas y optimizan la eficiencia de tu negocio.
+
+🛠️ Mantenimiento de Software
+Mantenemos tus sistemas actualizados y funcionando al máximo rendimiento, para que tú puedas enfocarte en lo que más importa.
+
+🌐 Páginas Estáticas
+Diseñamos páginas estáticas rápidas, optimizadas para SEO y perfectas para destacar en línea.
+
+📈 Consultoría Tecnológica
+Te asesoramos en la implementación de tecnologías que impulsen tu negocio y te den una ventaja competitiva.
+
+🔒 Seguridad Informática
+Protegemos tus sistemas y datos con soluciones de seguridad avanzadas, para que operes con tranquilidad.
+
+Proyectos Destacados
+Portafolio Profesional
+Un portafolio moderno y fácil de actualizar, desarrollado con Next.js y Tailwind CSS. Perfecto para profesionales que buscan destacar en línea.
+
+GitHub: Código del Portafolio
+
+Conéctate Con Nosotros
+¿Listo para llevar tu negocio al siguiente nivel? ¡Contáctanos! Estamos aquí para ayudarte a alcanzar tus objetivos tecnológicos.
+
+GitHub: [VCtech](https://github.com/villacentenariotech)
+
+Email: villacentenariotech@gmail.com
