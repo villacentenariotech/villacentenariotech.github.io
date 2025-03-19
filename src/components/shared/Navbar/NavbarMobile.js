@@ -20,26 +20,26 @@ export const NavbarMobile = () => {
 
       <nav className='flex items-center flex-col justify-center'>
         <CustomMobileLink href="#services" title={translations.NAVBAR_SERVICES} className='' toggle={handleIsOpen} />
-        <CustomMobileLink href="#about"  title={translations.NAVBAR_ABOUT} className='' toggle={handleIsOpen} />
-        <CustomMobileLink href="#contact_us"  title={translations.NAVBAR_CONTAC_US} className='' toggle={handleIsOpen} />
-        <CustomMobileLink href="#projects"  title={translations.NAVBAR_PROJECTS} className='' toggle={handleIsOpen} />
+        <CustomMobileLink href="#about" title={translations.NAVBAR_ABOUT} className='' toggle={handleIsOpen} />
+        <CustomMobileLink href="#contact_us" title={translations.NAVBAR_CONTAC_US} className='' toggle={handleIsOpen} />
+        <CustomMobileLink href="#projects" title={translations.NAVBAR_PROJECTS} className='' toggle={handleIsOpen} />
       </nav>
 
       <nav className='flex items-center justify-center flex-wrap mt-2'>
         <motion.a href={githubLink} target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className='w-6 mr-3 bg-light rounded-full dark:bg-dark sx:mx-1'
+          className='w-6 mr-3 bg-light rounded-full text-dark dark:text-light sx:mx-1 '
         >
           <GithubIcon />
         </motion.a>
-        <motion.a href={linkedin} target={"_blank"}
+        {/* <motion.a href={linkedin} target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           className='w-6 ml-3 sx:mx-1'
         >
           <LinkedInIcon />
-        </motion.a>
+        </motion.a> */}
 
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -53,6 +53,12 @@ export const NavbarMobile = () => {
               :
               <MoonIcon className={"fill-dark"} />
           }
+        </button>
+        <button onClick={switchLanguage}
+          className={`ml-3 text-dark dark:text-light
+          `}
+        >
+          {locale === 'en' ? 'En' : 'Es'}
         </button>
 
       </nav>

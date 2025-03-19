@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useData } from "../context/DataContext";
+import Link from "next/link";
 
 export default function Services() {
   const { data, translations } = useData();
@@ -45,23 +46,24 @@ export default function Services() {
 
         <div className="text-center mt-16">
           <h3 className="text-2xl font-bold text-dark dark:text-light mb-6">
-            ¿Por qué nuestros clientes nos eligen?
+            {translations.OUR_SERVICES_CONTACT}
           </h3>
           <p className="text-gray-600 dark:text-gray-300 mb-4 max-w-2xl mx-auto">
-            Con más de X proyectos entregados, hemos ayudado a empresas a digitalizar sus procesos,
-            mejorar su eficiencia y potenciar su presencia en línea. Descubre cómo nuestras soluciones han
-            transformado negocios como el tuyo.
+            {translations.OUR_SERVICES_BECAUSE}
           </p>
         </div>
 
         <div className="text-center mt-12">
-          <a
-            href="#contact"
+          <Link
+            href={`https://mail.google.com/mail/?view=cm&to=${data.email}`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-gradient-to-r from-indigo-500 to-primary-500 text-white px-8 py-4 rounded-lg text-lg font-bold shadow-lg transform transition duration-300 hover:scale-105"
           >
-            Agenda una consulta gratuita 🚀
-          </a>
+            {translations.OUR_SERVICES_RESERVE}
+          </Link>
         </div>
+
       </div>
     </section>
   );

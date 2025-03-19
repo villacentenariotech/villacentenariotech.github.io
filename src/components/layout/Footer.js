@@ -21,7 +21,13 @@ export const Footer = () => {
           by&nbsp;
           <Link href="/" className='underline underline-offset-2'>{data.alias}</Link>
         </div>
-        <Link href="/" target={'_black'} className='underline underline-offset-2'>{translations.SAY_HELLO}</Link>
+        <Link 
+          href={`https://mail.google.com/mail/?view=cm&to=${data.email}`}
+          rel="noopener noreferrer"
+          target={'_black'} className='underline underline-offset-2'
+        >
+          {translations.SAY_HELLO}
+        </Link>
       </Layout>
     </footer>
   )

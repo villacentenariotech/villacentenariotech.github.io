@@ -1,44 +1,69 @@
-# Martín Rubio - Professional Portfolio 🌟
+VCtech - Soluciones Digitales a Medida 🚀
+GitHub stars  
+GitHub forks  
+Github Followers  
 
-![GitHub stars](https://img.shields.io/github/stars/MartinRubio92/portfolio?style=social)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/MartinRubio92/portfolio?style=social)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/MartinRubio92.svg?style=social&label=Follow)&nbsp;&nbsp;
+En VCtech, transformamos ideas en soluciones digitales innovadoras. Somos un equipo de profesionales apasionados por la tecnología, especializados en desarrollo de software, creación de APIs y mantenimiento de sistemas. Nuestro objetivo es ayudarte a alcanzar tus objetivos tecnológicos con soluciones personalizadas y de alta calidad.
 
-Este es mi portafolio personal, construido con **Next.js**, **Tailwind CSS**, y **Framer Motion**, que destaca mi experiencia como **Desarrollador Full Stack** y **Frontend Developer**. En este proyecto, me enfoqué en crear una plataforma fácilmente actualizable para compartir mi experiencia profesional, habilidades, y proyectos.
+Puedes visitar nuestro portafolio en el siguiente enlace:
+Ver Portafolio
 
-Puedes visitar el portafolio en el siguiente enlace:  
-[Ver Portafolio](https://martinrubio92.github.io/)
+Acerca de Nosotros
+Somos un equipo de 3 profesionales con base en Villa Centenario, Argentina. Nos especializamos en desarrollo de software, creación de APIs y mantenimiento de sistemas. Aunque somos un equipo joven, estamos llenos de energía y ganas de aprender, comprometidos con crear las mejores soluciones digitales para tu negocio.
 
-## Acerca de Mí
+Ubicación: Villa Centenario, Argentina (Remoto)
 
-Soy un Desarrollador Full Stack con **7 años de experiencia**, especializado en el desarrollo tanto de frontend como de backend. Mi carrera incluye roles como **Líder Técnico** y **Desarrollador Frontend**, trabajando en soluciones innovadoras para sistemas financieros y plataformas de call centers.
+Enfoque: Soluciones personalizadas y de alta calidad.
 
-- **Años de experiencia:** 7  
-- **Clientes atendidos:** 1  
-- **Posición actual:** Desarrollador Frontend en Equila SRL  
-- **Ubicación:** Córdoba, Argentina (Remoto)
+Valores: Innovación, enfoque en resultados y trabajo en equipo.
 
-## Tecnologías
+Tecnologías
+Algunas de las tecnologías con las que trabajamos son:
 
-Algunas de las tecnologías con las que trabajo son:
+JavaScript
 
-- **JavaScript**
-- **ReactJS**
-- **NextJS**
-- **Java**
-- **Python**
-- **HTML/CSS**
-- **Tailwind CSS**
+ReactJS
 
-## Proyectos
+NextJS
 
-### Portafolio Personal
-Un portafolio profesional creado para mostrar mi trabajo y habilidades. El proyecto fue diseñado para ser fácilmente actualizable y utiliza **Next.js** junto con **Tailwind CSS** para garantizar una experiencia fluida tanto en dispositivos móviles como de escritorio.
+Tailwind CSS
 
-- **GitHub:** [Código del Portafolio](https://github.com/MartinRubio92/portfolio)
+APIs RESTful
 
-## Conéctate Conmigo
+Seguridad Informática
 
-- **GitHub:** [MartinRubio92](https://github.com/MartinRubio92)
-- **LinkedIn:** [Martín Rubio](https://www.linkedin.com/MartinRubio)
-- **Email:** martin.l.rubio92@gmail.com
+Desarrollo Web
+
+Nuestros Servicios
+Ofrecemos soluciones tecnológicas adaptadas a tus necesidades. Estos son algunos de nuestros servicios:
+
+💻 Desarrollo de Aplicaciones Web
+Creamos aplicaciones web modernas, escalables y fáciles de usar, diseñadas para mejorar la productividad de tu equipo y la experiencia de tus clientes.
+
+🔗 Creación de APIs
+Desarrollamos APIs robustas y seguras que integran tus sistemas y optimizan la eficiencia de tu negocio.
+
+🛠️ Mantenimiento de Software
+Mantenemos tus sistemas actualizados y funcionando al máximo rendimiento, para que tú puedas enfocarte en lo que más importa.
+
+🌐 Páginas Estáticas
+Diseñamos páginas estáticas rápidas, optimizadas para SEO y perfectas para destacar en línea.
+
+📈 Consultoría Tecnológica
+Te asesoramos en la implementación de tecnologías que impulsen tu negocio y te den una ventaja competitiva.
+
+🔒 Seguridad Informática
+Protegemos tus sistemas y datos con soluciones de seguridad avanzadas, para que operes con tranquilidad.
+
+Proyectos Destacados
+Portafolio Profesional
+Un portafolio moderno y fácil de actualizar, desarrollado con Next.js y Tailwind CSS. Perfecto para profesionales que buscan destacar en línea.
+
+GitHub: Código del Portafolio
+
+Conéctate Con Nosotros
+¿Listo para llevar tu negocio al siguiente nivel? ¡Contáctanos! Estamos aquí para ayudarte a alcanzar tus objetivos tecnológicos.
+
+GitHub: [VCtech](https://github.com/villacentenariotech)
+
+Email: villacentenariotech@gmail.com

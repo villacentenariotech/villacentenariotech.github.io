@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { useData } from '../context/DataContext';
-import logoImage from "@/../public/images/logo_sin_fondo.png"
+import logoImage from "@/../public/images/profile/logo_sin_fondo.png"
 
 export default function Hero() {
   const { data, translations } = useData();

@@ -5,7 +5,7 @@ import useThemeSwitcher from '@/components/hooks/useThemeSwitcher';
 import { useData } from '@/components/context/DataContext';
 import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon, CustomLink } from '@/components';
 
-export const NavbarLaptop = ({data, switchLanguage, locale}) => {
+export const NavbarLaptop = ({ data, switchLanguage, locale }) => {
   const [mode, setMode] = useThemeSwitcher();
   const githubLink = data?.links?.github || '#';
   const linkedin = data?.links?.linkedin || '#';
@@ -29,20 +29,22 @@ export const NavbarLaptop = ({data, switchLanguage, locale}) => {
       </nav>
 
       <nav className='flex items-center justify-center flex-wrap'>
-        <motion.a href={githubLink} target={"_blank"}
+        <motion.a
+          href={githubLink}
+          target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className='w-6 mr-3'
+          className="w-6 mr-3 text-dark dark:text-light"
         >
           <GithubIcon />
         </motion.a>
-        <motion.a href={linkedin} target={"_blank"}
+        {/* <motion.a href={linkedin} target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           className='w-6 ml-3'
         >
           <LinkedInIcon />
-        </motion.a>
+        </motion.a> */}
 
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -58,7 +60,7 @@ export const NavbarLaptop = ({data, switchLanguage, locale}) => {
           }
         </button>
         <button onClick={switchLanguage}
-          className={`ml-3
+          className={`ml-3 text-dark dark:text-light
           `}
         >
           {locale === 'en' ? 'En' : 'Es'}

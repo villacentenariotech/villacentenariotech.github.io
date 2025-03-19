@@ -1,5 +1,11 @@
 {
   "alias": "VCTech",
+  "links": {
+    "github": "https://github.com/villacentenariotech",
+    "linkedin": "https://www.linkedin.com/in/martin-rubio-242248162/",
+    "instagram": ""
+  },
+  "email": "villacentenariotech@gmail.com",
   "clients": 1,
   "years": 7,
   "experiences": [
@@ -38,22 +44,6 @@
       "address": "Buenos Aires",
       "work_es": "Como Desarrollador Full Stack, fui responsable del desarrollo de servicios REST, procesos BPM y interfaces web utilizando tecnologías como JavaScript, Handlebars, MySQL, MyBatis, y JBPM. Participé en el diseño y desarrollo de soluciones para sistemas de gestión integral, trabajando estrechamente con el equipo técnico para garantizar la calidad del código y la eficiencia del software.",
       "work_en": "As a Full Stack Developer, I was responsible for the development of REST services, BPM processes, and web interfaces using technologies such as JavaScript, Handlebars, MySQL, MyBatis, and JBPM. I participated in the design and development of solutions for end-to-end management systems, working closely with the technical team to ensure code quality and software efficiency."
-    }
-  ],
-  "educations": [
-    {
-      "type": "Ingeniería en Informática",
-      "place": "UNDAV (Universidad Nacional de Avellaneda)",
-      "time": "2013 – Actualidad",
-      "info_es": "Proximo a presentar la tesis.",
-      "info_en": "About to present the thesis."
-    },
-    {
-      "type": "Técnico Electrónico y Bachiller",
-      "place": "Instituto Tecnológico San Bonifacio",
-      "time": "2007 - 2010",
-      "info_es": "Colegio tecnico de muy buen nivel, donde empece a conocer sobre la programacion con PIC con Assembler y principios de C",
-      "info_en": "Very good technical school, where I began to learn about programming with PIC with Assembler and C principles."
     }
   ],
   "skills": [
@@ -106,22 +96,25 @@
       "descripcion": ""
     }
   ],
-  "links": {
-    "github": "https://github.com/MartinRubio92",
-    "linkedin": "https://www.linkedin.com/in/martin-rubio-242248162/",
-    "instagram": ""
-  },
-  "email": "martin.l.rubio92@gmail.com",
-  "projects_cant": 1,
+  "projects_cant": 2,
   "projects": [
     {
       "name": "Portfolio",
       "descripcion_es": "Un portfolio profecional creado con NextJS y Tailwind CSS. Desarrollado para su facil actualización",
       "descripcion_en": "A professional portfolio built with Next JS and Tailwind CSS. Built for easy updating",
-      "image": "project_portfolio",
+      "image": "portfolioImage",
       "type": "Project",
       "github": "https://github.com/MartinRubio92/portfolio",
-      "link": ""
+      "link": "https://martinrubio92.github.io/"
+    },
+    {
+        "name": "E-Commerce con Vendure",
+        "descripcion_es": "e-commerce diseñado para ofrecer una experiencia de compra rápida y fluida. Construido con Next.js y Tailwind CSS en el frontend, el sitio es completamente responsive y garantiza una navegación optimizada tanto en dispositivos móviles como en escritorio. En el backend, emplea Vendure para la gestión de productos, inventario y pedidos, y se integra con PostgreSQL como base de datos, asegurando la fiabilidad y escalabilidad de la plataforma.",
+        "descripcion_en": "e-commerce designed to offer a fast and fluid purchasing experience. Built with Next.js and Tailwind CSS on the frontend, the site is fully responsive and ensures optimized navigation on both mobile and desktop devices. On the backend, it uses Vendure for product, inventory and order management, and integrates with PostgreSQL as a database, ensuring the reliability and scalability of the platform.",
+        "image": "ecommerceImage",
+        "type": "Project",
+        "github": "https://github.com/villacentenariotech/front_ecommerce",
+        "link": "https://front-ecommerce-ashy.vercel.app/"
     }
   ],
   "services": [
@@ -158,7 +151,7 @@
   ],
   "abouts": [
     {
-      "icon":"🚀",
+      "icon": "🚀",
       "id": "innovation"
     },
     {
@@ -168,6 +161,24 @@
     {
       "icon": "🤝",
       "id": "teamwork"
+    }
+  ],
+  "members": [
+    {
+      "name": "Villa Centenario Tech",
+      "github": "https://github.com/villacentenariotech"
+    },
+    {
+      "name": "Camilo Rubio",
+      "github": "https://github.com/harrycamilo"
+    },
+    {
+      "name": "Martin Rubio",
+      "github": "https://github.com/MartinRubio92"
+    },
+    {
+      "name": "Mauro Dietze",
+      "github": "https://github.com/MauroDietze"
     }
   ]
 }
