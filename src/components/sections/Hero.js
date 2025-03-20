@@ -11,7 +11,7 @@ export default function Hero() {
   }
 
   return (
-    <section id="hero" className="h-[80vh] flex items-center justify-center bg-light dark:bg-dark mb-16">
+    <section id="hero" className="flex items-center justify-center bg-light dark:bg-dark">
       <div className="text-center">
         <div className="flex justify-center items-center">
           <Image
