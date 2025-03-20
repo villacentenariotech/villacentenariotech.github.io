@@ -58,6 +58,8 @@ export const translations = {
 	FOOTER_COPYRIGHT: "© 2024 Martin Rubio. Todos los derechos reservados",
 	TITLE_PROJECTS: "Algunos de mis proyectos",
 	TITLE_SKILLS: "Skills",
+
+	// Footer
 	RIGHTS_RESERVED: "Todos los derechos reservados.",
 	BUILD_WITH: "Build With",
 	SAY_HELLO: "Hablemos",

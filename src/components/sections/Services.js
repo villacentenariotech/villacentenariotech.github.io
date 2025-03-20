@@ -27,16 +27,16 @@ export default function Services() {
               transition={{ duration: 0.3, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <div className="p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                <div className="flex items-center space-x-4 mb-4">
-                  <span className="text-5xl text-primary-500 dark:text-primary-300">
+              <div className="h-full p-6 lg:p-2 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
+                <div className="flex items-center space-x-4 mb-4 lg:flex-col lg:space-x-0">
+                  <span className="text-5xl text-primary-500 dark:text-primary-300 lg:my-2">
                     {service.icon}
                   </span>
-                  <h3 className="text-2xl font-bold text-dark dark:text-light">
+                  <h3 className="text-2xl font-bold text-dark dark:text-light lg:mx-2 lg:text-xl lg:text-center">
                     {translations[`SERVICE_${service.id.toUpperCase()}`]}
                   </h3>
                 </div>
-                <p className="text-dark dark:text-gray-300 mb-4">
+                <p className="text-dark dark:text-gray-300 lg:text-base mb-4 lg:text-center">
                   {translations[`SERVICE_${service.id.toUpperCase()}_DESCRIPTION`]}
                 </p>
               </div>

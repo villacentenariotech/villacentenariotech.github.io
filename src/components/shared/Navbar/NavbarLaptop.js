@@ -25,7 +25,7 @@ export const NavbarLaptop = ({ data, switchLanguage, locale }) => {
         <CustomLink href="#services" title={translations.NAVBAR_SERVICES} className='mr-4 text-dark dark:text-light hover:text-primary-500' />
         <CustomLink href="#about" title={translations.NAVBAR_ABOUT} className='mx-4 text-dark dark:text-light hover:text-primary-500' />
         <CustomLink href="#contact_us" title={translations.NAVBAR_CONTAC_US} className='mx-4 text-dark dark:text-light hover:text-primary-500' />
-        <CustomLink href="#projects" title={translations.PROJECTS} className='mx-4 text-dark dark:text-light hover:text-primary-500' />
+        <CustomLink href="#projects" title={translations.NAVBAR_PROJECTS} className='mx-4 text-dark dark:text-light hover:text-primary-500' />
       </nav>
 
       <nav className='flex items-center justify-center flex-wrap'>

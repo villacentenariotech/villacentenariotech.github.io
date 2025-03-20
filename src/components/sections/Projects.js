@@ -17,10 +17,10 @@ const Projects = () => {
   return (
     <section id="projects">
       <AnimatedText text={translations.TITLE_PROJECTS}
-        className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'
+        className='my-16 lg:!text-7xl lg:my-8 sm:!text-6xl xs:!text-4xl'
       />
 
-      <div className='flex flex-col gap-20 p-12'>
+      <div className='flex flex-col gap-20 '>
         {data.projects?.map((project, index) => (
           <FeaturedProjects
             key={index}
